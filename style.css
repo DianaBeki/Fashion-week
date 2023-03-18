@@ -17,7 +17,7 @@ body {
   font-size: 16px;
   font-family: 'Lato', sans-serif;
   line-height: 20px;
-  letter-spacing: 1;
+  letter-spacing: 1rem;
 }
 
 .desktop-navbar1,
@@ -113,12 +113,11 @@ body {
 }
 
 .heading-1 {
-   font-family: 'Lato', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-weight: 900;
   font-size: 2rem;
   line-height: 30px;
   background-image: linear-gradient(to top right, black, blue, purple, gold, black, violet);
-  background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
   text-transform: uppercase;
@@ -196,27 +195,26 @@ body {
   flex-direction: row;
   padding: 1rem;
   margin: 0.5rem 0;
-
 }
 
 .program-icon {
   flex: 1;
-width: 2rem;
-height: 2rem;
+  width: 2rem;
+  height: 2rem;
 }
 
 .program-title {
   flex: 1;
-color: orangered;
-margin: 0 0.5rem;
-font-weight: 900;
-font-size: 1.2rem;
-text-shadow: 2px 2px 12px rgba(0, 0, 0, 0.756);
+  color: orangered;
+  margin: 0 0.5rem;
+  font-weight: 900;
+  font-size: 1.2rem;
+  text-shadow: 2px 2px 12px rgba(0, 0, 0, 0.756);
 }
 
 .program-paragraph {
   flex: 5;
-color: rgba(0, 0, 0, 0.797);
+  color: rgba(0, 0, 0, 0.797);
 }
 
 .join-btn {
@@ -241,7 +239,6 @@ color: rgba(0, 0, 0, 0.797);
   padding: 3rem 1rem;
   width: 100%;
 }
-
 
 .designers-heading {
   font-family: 'Lato', sans-serif;
@@ -299,13 +296,13 @@ color: rgba(0, 0, 0, 0.797);
 }
 
 .founder {
-color: orangered;
-font-size: 0.8rem;
+  color: orangered;
+  font-size: 0.8rem;
 }
 
 .text {
-font-size: 0.8rem;
-line-height: 1rem;
+  font-size: 0.8rem;
+  line-height: 1rem;
 }
 
 .btn {
@@ -397,13 +394,12 @@ line-height: 1rem;
   font-size: 3rem;
   line-height: 30px;
   background-image: linear-gradient(to top right, black, blue, purple, gold, black, violet);
-  background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
   margin-top: 1rem;
   border: 2px solid rgba(0, 0, 0, 0.52);
   box-shadow: 2px 2px 4px #fff;
-  padding: 3rem 8rem; 
+  padding: 3rem 8rem;
   width: 90%;
   display: flex;
   justify-content: center;
@@ -510,7 +506,7 @@ line-height: 1rem;
   padding-bottom: 1rem;
   color: white;
   margin-bottom: 0.8rem;
-  }
+}
 
 .partner-header::after {
   content: "";
@@ -567,13 +563,11 @@ line-height: 1rem;
   font-weight: 900;
   font-size: 1.3rem;
   background-image: linear-gradient(to top right, black, blue, purple, gold, black, violet);
-  background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
 }
 
 @media only screen and (min-width: 768px) {
-
   #icon {
     display: none;
   }
@@ -582,7 +576,7 @@ line-height: 1rem;
     margin-left: 4rem;
   }
 
-  .join-btn{
+  .join-btn {
     display: none;
   }
 
@@ -590,11 +584,10 @@ line-height: 1rem;
     font-family: 'Lato', sans-serif;
     font-weight: 500;
     font-size: 1rem;
-    margin-top: 2.5rem;
     color: fuchsia;
     text-shadow: 2px 4px 12px rgba(0, 0, 0, 0.7);
     width: 60%;
-    margin: 0 auto;
+    margin: 2.5rem auto;
     line-height: 2rem;
   }
 
@@ -632,13 +625,13 @@ line-height: 1rem;
   }
 
   .partner-header {
-  font-family: 'Lato', sans-serif;
-  font-weight: 900;
-  font-size: 1.5rem;
-  position: relative;
-  padding-bottom: 1rem;
-  color: white;
-  margin-bottom: 0.8rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 1.5rem;
+    position: relative;
+    padding-bottom: 1rem;
+    color: white;
+    margin-bottom: 0.8rem;
   }
 
   .partner-header::after {
@@ -674,24 +667,16 @@ line-height: 1rem;
   .footer {
     display: flex;
     padding: 5rem 5rem;
+    justify-content: space-between;
     width: 80%;
     margin: 0 auto;
   }
 
   .year-and-rights {
     display: flex;
-    flex-direction: row;
-
+    gap: 2rem;
     color: grey;
-  }
-
-  .name-footer {
-    background-image: linear-gradient(to top right, black, blue, purple, gold, black, violet);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-    font-size: 1.7rem;
-    line-height: 20px;
+    flex-direction: row;
   }
 
   .main-program {
@@ -723,21 +708,14 @@ line-height: 1rem;
     text-align: center;
   }
 
-  .footer {
-    display: flex;
-    justify-content: space-between;
-    padding: 5rem 5rem;
-  }
-
-  .year-and-rights {
+  /* .year-and-rights {
     display: flex;
     gap: 2rem;
     color: grey;
-  }
-  
+  } */
+
   .name-footer {
     background-image: linear-gradient(to top right, black, blue, purple, gold, black, violet);
-    background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
     font-size: 1.7rem;
@@ -758,7 +736,7 @@ line-height: 1rem;
     gap: 1.2rem;
   }
 
-  .social-icon a{
+  .social-icon a {
     color: #fff;
   }
 
@@ -794,7 +772,6 @@ line-height: 1rem;
     font-size: 2rem;
     line-height: 30px;
     background-image: linear-gradient(to top right, black, blue, purple, gold, black, violet);
-    background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
     margin-left: 2rem;
@@ -826,7 +803,7 @@ line-height: 1rem;
   }
 
   .about-footer {
-    border: 1px solid ;
+    border: 1px solid;
     background-color: rgba(0, 0, 0, 0.7);
     padding: 4rem;
     justify-content: flex-start;

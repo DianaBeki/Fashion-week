@@ -1,202 +1,84 @@
+## Fashion-week
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-OPTIONAL SECTIONS:
-- FAQ
-
-After you're finished please remove all the comments and instructions!
--->
-
-</div>
-
-<!-- TABLE OF CONTENTS -->
-
-# 📗 Table of Contents
-
-- [📗 Table of Contents](#-table-of-contents)
-- [📖 \[Portfolio-website\] ](#-portfolio-website-)
-  - [🛠 Built With Html and css](#-built-with-html-and-css)
-    - [Tech Stack ](#tech-stack-)
-    - [Key Features ](#key-features-)
-  - [🚀 Live Demo ](#-live-demo-)
-  - [💻 Getting Started ](#-getting-started-)
-    - [Prerequisites](#prerequisites)
-    - [Setup](#setup)
-    - [Install](#install)
-  - [👥 Author ](#-author-)
-  - [🔭 Future Features ](#-future-features-)
-  - [🤝 Contributing ](#-contributing-)
-  - [⭐️ Show your support ](#️-show-your-support-)
-  - [🙏 Acknowledgments ](#-acknowledgments-)
-  - [📝 License ](#-license-)
-
-<!-- PROJECT DESCRIPTION -->
-
-# 📖 [Portfolio-website] <a href="https://github.com/DianaBeki/Portfolio-website"></a>
-
-  Portfolio: accessibility
-  - evaluate your website against accessibility best practices and implement any necessary changes to ensure that your website is accessible.
-
-## 🛠 Built With <a name="built-with">Html and css</a>
-
-### Tech Stack <a name="tech-stack"></a>
-
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
-<details>
-  <summary>Html</summary>
-  <ul>
-    <li><a href="https://html.org/">Html</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>CSS</summary>
-  <ul>
-    <li><a href="https://www.CSS.org/">CSS</a></li>
-  </ul>
-</details>
-
-<!-- Features -->
-
-### Key Features <a name="key-features"></a>
+- This is a website for a fashion week lasting approximately one week, where fashion designers, brands or "houses" display their latest collections in runway fashion shows to buyers and the media.
 
 
-- **[Write media queries of minimum width 768 for desktop version]**
+## Built With
 
-- **[add desktop background image to header class and style in css]**
+- HTML
+
+- CSS
   
-- **[add live demo link]**
+- SASS
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+- Javascript 
 
-<!-- LIVE DEMO -->
+- Lighthouse (An open-source, automated tool for improving the quality of web pages. It has audits for performance, accessibility, progressive web apps, SEO and more).
 
-## 🚀 Live Demo <a name="live-demo"></a>
+- Webhint (A customizable linting tool that helps you improve your site's accessibility, speed, cross-browser compatibility, and more by checking your code for bestpract ices and common errors).
 
-- [Live Demo Link](https://dianabeki.github.io/Portfolio-website/)
-
-- **[image text alternatives  (img alt="alt text" (issue found and solved)]**
-  
-- **[page title - no issue found]**
-- 
-- **[zoom text only - no text was overlapping]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- GETTING STARTED -->
-
-## 💻 Getting Started <a name="getting-started"></a>
-
-To get a local copy up and running, follow these steps.
+- Stylelint (A mighty, modern linter that helps you avoid errors and enforce conventions in your styles).
 
 ### Prerequisites
 
-In order to run this project you need:
+- Have a local version control like Git. Which is a open source distributed version control system designed for source code management.
+- A text editor (e.g Visual Studio Code, Vim, Atom & Sublime.)
+- A web browser (e.g Chrome, Safari, Mozilla Firefox.)
+- Live Server which is a web extension that helps you to live reload feature for dynamic content.
+- Install wave extension to check project accessibilty.
 
+### Live Demo
 
-```sh
- npm install
-```
+- To view a live demo of the project you can click on this [link]().
 
+### Getting Started
 
-### Setup
+To get a local copy up and running follow these simple example steps.
 
-Clone this repository to your desired folder:
+- npm
+  ```sh
+  npm install npm@latest -g
+  ```
 
+### Installation
 
-```sh
-  cd my-folder
-  git clone git@github.com:DianaBeki/Portfolio-website.git
-```
--
+1. Clone the repo by running the command
+   ```sh
+    git clone git@github.com:DianaBeki/Fashion-week.git
+   ```
+2. Open the directory of the project
+   ```sh
+   cd Conference-Website
+   ```
+3. Open the html file
+   ```sh
+   Click and open the html file
 
-### Install
+## Authors
 
-Install this project with:
+👤 Diana Beki
 
-
-```sh
-  cd Portfolio-website
-  npm install
-```
--
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- AUTHORS -->
-
-## 👥 Author <a name="Diana Beki"></a>
-
-> Mention all of the collaborators of this project.
-
-👤 **Diana Beki**
-👤 **Tshepo45**
 
 - GitHub: [@githubhandle](https://github.com/DianaBeki)
 - Twitter: [@twitterhandle](https://twitter.com/home)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/feed/)
 
+## 🤝 Contributing
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+- Contributions, issues, and feature requests are welcome!
 
-<!-- FUTURE FEATURES -->
+- Feel free to check the [issues page](https://github.com/DianaBeki/Fashion-week/issues).
 
-## 🔭 Future Features <a name="future-features"></a>
+## Show your support
 
+- Give a ⭐️ if you like this project!
 
-- [] Add more content in the page
+## Acknowledgements
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+- Original design by Cindy Shin in [Behance](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
+- Background images from [Unsplash](https://unsplash.com/photos/kUHfMW8awpE)
+  
 
-<!-- CONTRIBUTING -->
+## 📝 License
 
-## 🤝 Contributing <a name="contributing"></a>
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](https://github.com/DianaBeki/Portfolio-website/issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- SUPPORT -->
-
-## ⭐️ Show your support <a name="support"></a>
-
-If you like this project give it a star ⭐️
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGEMENTS -->
-
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-
-I would like to thank Microverse for the project idea.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LICENSE -->
-
-## 📝 License <a name="license"></a>
-
-This project is [MIT](./LICENSE) licensed.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+- This project is MIT licensed.
