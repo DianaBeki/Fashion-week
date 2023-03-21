@@ -89,6 +89,13 @@ for (let i = 0; i < designers.length; i += 1) {
     const fashionImages = document.createElement('div');
     fashionImages.classList.add('fashion-images');
 
+    const chess = document.createElement('img');
+    chess.classList.add('chess-img');
+    chess.src = '/images/chess.jpg';
+    chess.alt = 'chess photo';
+
+    fashionImages.appendChild(chess);
+
     const image = document.createElement('img');
     image.classList.add('images');
     image.src = designers[i].img;
