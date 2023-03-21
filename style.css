@@ -78,7 +78,7 @@ body {
 }
 
 .content-info {
-  background-image: url(./images/background-image.jpg);
+  background-image: url(./images/white-circle-background.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -105,17 +105,16 @@ body {
   font-family: 'Lato', sans-serif;
   font-weight: 600;
   font-size: 1.5rem;
-  color: orangered;
+  color: #ec5242;
   line-height: 20px;
   letter-spacing: 2px;
-  text-shadow: 2px 2px 2px orange;
 }
 
 .heading-1 {
   font-family: 'Lato', sans-serif;
   font-weight: 900;
-  font-size: 2rem;
-  line-height: 30px;
+  font-size: 3.5rem;
+  line-height: 50px;
   background-image: linear-gradient(to top right, black, blue, purple, gold, black, violet);
   -webkit-background-clip: text;
   color: transparent;
@@ -129,8 +128,7 @@ body {
   font-size: 1rem;
   line-height: 1.5rem;
   margin-top: 2.5rem;
-  color: fuchsia;
-  text-shadow: 2px 4px 12px rgba(0, 0, 0, 0.7);
+  color: rgba(0, 0, 0, 0.8);
 }
 
 .place {
@@ -153,10 +151,10 @@ body {
 }
 
 .main-program {
+  background-image: url(./images/main-program.jpg);
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url(./images/main.jpg);
   padding: 4rem 0;
 }
 
@@ -187,7 +185,7 @@ body {
 }
 
 .program-list {
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.1);
   width: 92%;
   display: flex;
   align-items: center;
@@ -213,7 +211,7 @@ body {
 
 .program-paragraph {
   flex: 5;
-  color: rgba(0, 0, 0, 0.797);
+  color: #fff;
 }
 
 .join-btn {
@@ -270,6 +268,7 @@ body {
 }
 
 .fashion-images {
+  position: relative;
   width: 40%;
   height: 10rem;
 }
@@ -281,11 +280,25 @@ body {
   width: 60%;
 }
 
+.chess-img {
+  width: 40%;
+  height: 40%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.3;
+  z-index: 2;
+}
+
 .images {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 4;
   object-fit: cover;
   object-position: top;
-  width: 100%;
-  height: 100%;
+  width: 90%;
+  height: 90%;
 }
 
 .name {
@@ -566,13 +579,23 @@ body {
   color: transparent;
 }
 
+.about-name-footer {
+  font-weight: 900;
+  font-size: 1.3rem;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(to top right, white, grey, gold, purple);
+  margin-left: 17%;
+}
+
 @media only screen and (min-width: 768px) {
   #icon {
     display: none;
   }
 
   .intro-fashion-box {
-    margin-left: 4rem;
+    width: 80%;
+    margin: 0 auto;
   }
 
   .join-btn {
@@ -583,8 +606,7 @@ body {
     font-family: 'Lato', sans-serif;
     font-weight: 500;
     font-size: 1rem;
-    color: fuchsia;
-    text-shadow: 2px 4px 12px rgba(0, 0, 0, 0.7);
+    color: rgba(0, 0, 0, 0.8);
     width: 60%;
     margin: 2.5rem auto;
     line-height: 2rem;
@@ -693,15 +715,19 @@ body {
   .program-list {
     flex-direction: column;
     align-items: center;
-    width: 15vw;
-    height: 10rem;
-    justify-content: space-between;
+    width: 200px;
+    height: 231px;
+    justify-content: space-around;
     transition: all 0.4s;
   }
 
+  .program-list > * {
+    flex: 1;
+  }
+
   .program-list:hover {
-    transform: scale(1.1);
-    border: 3px solid #fff;
+    transform: scale(1.05);
+    border: 1px solid #fff;
     cursor: pointer;
   }
 
@@ -733,6 +759,7 @@ body {
     justify-content: flex-end;
     background-color: rgba(0, 0, 0, 0.774);
     padding: 0.1rem 4rem;
+    width: 100%;
   }
 
   .social {
@@ -740,6 +767,8 @@ body {
     justify-content: flex-end;
     align-items: center;
     gap: 1.2rem;
+    width: 80%;
+    margin: 0 auto;
   }
 
   .social-icon a {
@@ -750,12 +779,14 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
   }
 
   .networking {
     display: flex;
     align-items: center;
-    padding: 2rem 4rem;
+    padding: 2rem 2rem;
     gap: 1.2rem;
   }
 
