@@ -696,6 +696,13 @@ body {
     width: 15vw;
     height: 10rem;
     justify-content: space-between;
+    transition: all 0.4s;
+  }
+
+  .program-list:hover {
+    transform: scale(1.1);
+    border: 3px solid #fff;
+    cursor: pointer;
   }
 
   .program-title {
@@ -752,17 +759,21 @@ body {
     gap: 1.2rem;
   }
 
-  .networking li a {
-    color: blue;
-  }
-
   .get {
     padding: 0.4rem;
     border: 2px solid orangered;
   }
 
+  .networking li a {
+    color: blue;
+  }
+
   .get a:hover {
     color: black;
+  }
+
+  .networking li a:hover {
+    color: orangered;
   }
 
   .nova {
