@@ -5,7 +5,7 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-  - [Fashion-week](#fashion-week)
+- [📖 Fashionova ](#-fashionova-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -18,13 +18,13 @@
   - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show your support ](#️-show-your-support-)
   - [🙏 Acknowledgments ](#-acknowledgments-)
-  - [📝 LICENSE ](#-license-)
+  - [📝 License ](#-license-)
 
 <!-- PROJECT DESCRIPTION -->
 
-## Fashion-week
+# 📖 Fashionova <a name="about-project"></a>
 
- - A fashion week is a fashion industry event, lasting approximately one week, where fashion designers, brands or "houses" display their latest collections in runway fashion shows to buyers and the media.A fashion week is a fashion industry event, lasting approximately one week, where fashion designers, brands or "houses" display their latest collections in runway fashion shows to buyers and the media.
+**Fashion week** - A fashion week is a fashion industry event, lasting approximately one week, where fashion designers, brands or "houses" display their latest collections in runway fashion shows to buyers and the media.A fashion week is a fashion industry event, lasting approximately one week, where fashion designers, brands or "houses" display their latest collections in runway fashion shows to buyers and the media.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -77,18 +77,20 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 ```
 git clone git@github.com:DianaBeki/Fashion-week.git
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
- <!-- AUTHORS -->
+<!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 Diana Beki
+👤 **Diana Beki**
 
-- GitHub:[Github](https://github.com/DianaBeki)
-- Twitter:[Twitter](https://twitter.com/home)
-- LinkedIn:[LinkedIn](https://www.linkedin.com/feed/)
+- GitHub: [@Diana Beki](https://github.com/DianaBeki)
+- Twitter: [@Diana Beki](https://twitter.com/home)
+- LinkedIn: [Diana Beki](https://www.linkedin.com/in/diana-beki-b49684230/)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -108,7 +110,7 @@ git clone git@github.com:DianaBeki/Fashion-week.git
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/DianaBeki/Fashion-week/issues)
+Feel free to check the [issues page](https://github.com/DianaBeki/Fashion-week/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -126,14 +128,13 @@ If you like this project, consider giving it a star.
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 - I would like to thank Microverse Inc for such an awesome opportunity to join their community and start a journey to become a full stack web developer.
-- This capstone project is based on the original design idea of [Cindy Shin in Behance](https://www.behance.net/adagio07), although a few tweaks were made. 
+- This capstone proeject is based on the original design idea of [Cindy Shin in Behance](https://www.behance.net/adagio07), although a few tweaks were made. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-
 <!-- LICENSE -->
 
-## 📝 LICENSE <a name="LICENSE"></a>
+## 📝 License <a name="license"></a>
 
-This project is [MIT](LICENSE) licensed.
+This project is [MIT](./LICENSE) licensed.
