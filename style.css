@@ -17,7 +17,6 @@ body {
   font-size: 16px;
   font-family: 'Lato', sans-serif;
   line-height: 20px;
-  letter-spacing: 1;
 }
 
 .desktop-navbar1,
@@ -79,7 +78,7 @@ body {
 }
 
 .content-info {
-  background-image: url(./images/background-image.jpg);
+  background-image: url(./images/white-circle-background.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -106,19 +105,17 @@ body {
   font-family: 'Lato', sans-serif;
   font-weight: 600;
   font-size: 1.5rem;
-  color: orangered;
+  color: #ec5242;
   line-height: 20px;
   letter-spacing: 2px;
-  text-shadow: 2px 2px 2px orange;
 }
 
 .heading-1 {
-   font-family: 'Lato', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-weight: 900;
-  font-size: 2rem;
-  line-height: 30px;
-  background-image: linear-gradient(to top right, black, blue, purple, gold, black, violet);
-  background-clip: text;
+  font-size: 3.5rem;
+  line-height: 50px;
+  background-image: linear-gradient(to top right, #272a31, #ec5242, #d3d3d3);
   -webkit-background-clip: text;
   color: transparent;
   text-transform: uppercase;
@@ -131,8 +128,7 @@ body {
   font-size: 1rem;
   line-height: 1.5rem;
   margin-top: 2.5rem;
-  color: fuchsia;
-  text-shadow: 2px 4px 12px rgba(0, 0, 0, 0.7);
+  color: #515151;
 }
 
 .place {
@@ -155,10 +151,10 @@ body {
 }
 
 .main-program {
+  background-image: url(./images/main-program.jpg);
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url(./images/main.jpg);
   padding: 4rem 0;
 }
 
@@ -189,34 +185,33 @@ body {
 }
 
 .program-list {
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.1);
   width: 92%;
   display: flex;
   align-items: center;
   flex-direction: row;
   padding: 1rem;
   margin: 0.5rem 0;
-
 }
 
 .program-icon {
   flex: 1;
-width: 2rem;
-height: 2rem;
+  width: 2rem;
+  height: 2rem;
 }
 
 .program-title {
   flex: 1;
-color: orangered;
-margin: 0 0.5rem;
-font-weight: 900;
-font-size: 1.2rem;
-text-shadow: 2px 2px 12px rgba(0, 0, 0, 0.756);
+  color: orangered;
+  margin: 0 0.5rem;
+  font-weight: 900;
+  font-size: 1.2rem;
+  text-shadow: 2px 2px 12px rgba(0, 0, 0, 0.756);
 }
 
 .program-paragraph {
   flex: 5;
-color: rgba(0, 0, 0, 0.797);
+  color: #fff;
 }
 
 .join-btn {
@@ -241,7 +236,6 @@ color: rgba(0, 0, 0, 0.797);
   padding: 3rem 1rem;
   width: 100%;
 }
-
 
 .designers-heading {
   font-family: 'Lato', sans-serif;
@@ -274,6 +268,7 @@ color: rgba(0, 0, 0, 0.797);
 }
 
 .fashion-images {
+  position: relative;
   width: 40%;
   height: 10rem;
 }
@@ -285,11 +280,25 @@ color: rgba(0, 0, 0, 0.797);
   width: 60%;
 }
 
+.chess-img {
+  width: 40%;
+  height: 40%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.3;
+  z-index: 2;
+}
+
 .images {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 4;
   object-fit: cover;
   object-position: top;
-  width: 100%;
-  height: 100%;
+  width: 90%;
+  height: 90%;
 }
 
 .name {
@@ -299,13 +308,13 @@ color: rgba(0, 0, 0, 0.797);
 }
 
 .founder {
-color: orangered;
-font-size: 0.8rem;
+  color: orangered;
+  font-size: 0.8rem;
 }
 
 .text {
-font-size: 0.8rem;
-line-height: 1rem;
+  font-size: 0.8rem;
+  line-height: 1rem;
 }
 
 .btn {
@@ -397,13 +406,12 @@ line-height: 1rem;
   font-size: 3rem;
   line-height: 30px;
   background-image: linear-gradient(to top right, black, blue, purple, gold, black, violet);
-  background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
   margin-top: 1rem;
   border: 2px solid rgba(0, 0, 0, 0.52);
   box-shadow: 2px 2px 4px #fff;
-  padding: 3rem 8rem; 
+  padding: 3rem 8rem;
   width: 90%;
   display: flex;
   justify-content: center;
@@ -510,7 +518,7 @@ line-height: 1rem;
   padding-bottom: 1rem;
   color: white;
   margin-bottom: 0.8rem;
-  }
+}
 
 .partner-header::after {
   content: "";
@@ -567,22 +575,30 @@ line-height: 1rem;
   font-weight: 900;
   font-size: 1.3rem;
   background-image: linear-gradient(to top right, black, blue, purple, gold, black, violet);
-  background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
 }
 
-@media only screen and (min-width: 768px) {
+.about-name-footer {
+  font-weight: 900;
+  font-size: 1.3rem;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(to top right, white, grey, gold, purple);
+  margin-left: 17%;
+}
 
+@media only screen and (min-width: 768px) {
   #icon {
     display: none;
   }
 
   .intro-fashion-box {
-    margin-left: 4rem;
+    width: 80%;
+    margin: 0 auto;
   }
 
-  .join-btn{
+  .join-btn {
     display: none;
   }
 
@@ -590,11 +606,9 @@ line-height: 1rem;
     font-family: 'Lato', sans-serif;
     font-weight: 500;
     font-size: 1rem;
-    margin-top: 2.5rem;
-    color: fuchsia;
-    text-shadow: 2px 4px 12px rgba(0, 0, 0, 0.7);
+    color: rgba(0, 0, 0, 0.8);
     width: 60%;
-    margin: 0 auto;
+    margin: 2.5rem auto;
     line-height: 2rem;
   }
 
@@ -632,13 +646,13 @@ line-height: 1rem;
   }
 
   .partner-header {
-  font-family: 'Lato', sans-serif;
-  font-weight: 900;
-  font-size: 1.5rem;
-  position: relative;
-  padding-bottom: 1rem;
-  color: white;
-  margin-bottom: 0.8rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 1.5rem;
+    position: relative;
+    padding-bottom: 1rem;
+    color: white;
+    margin-bottom: 0.8rem;
   }
 
   .partner-header::after {
@@ -674,24 +688,16 @@ line-height: 1rem;
   .footer {
     display: flex;
     padding: 5rem 5rem;
+    justify-content: space-between;
     width: 80%;
     margin: 0 auto;
   }
 
   .year-and-rights {
     display: flex;
-    flex-direction: row;
-
+    gap: 2rem;
     color: grey;
-  }
-
-  .name-footer {
-    background-image: linear-gradient(to top right, black, blue, purple, gold, black, violet);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-    font-size: 1.7rem;
-    line-height: 20px;
+    flex-direction: row;
   }
 
   .main-program {
@@ -709,9 +715,20 @@ line-height: 1rem;
   .program-list {
     flex-direction: column;
     align-items: center;
-    width: 15vw;
-    height: 10rem;
-    justify-content: space-between;
+    width: 200px;
+    height: 231px;
+    justify-content: space-around;
+    transition: all 0.4s;
+  }
+
+  .program-list > * {
+    flex: 1;
+  }
+
+  .program-list:hover {
+    transform: scale(1.05);
+    border: 1px solid #fff;
+    cursor: pointer;
   }
 
   .program-title {
@@ -723,21 +740,14 @@ line-height: 1rem;
     text-align: center;
   }
 
-  .footer {
-    display: flex;
-    justify-content: space-between;
-    padding: 5rem 5rem;
-  }
-
-  .year-and-rights {
+  /* .year-and-rights {
     display: flex;
     gap: 2rem;
     color: grey;
-  }
-  
+  } */
+
   .name-footer {
     background-image: linear-gradient(to top right, black, blue, purple, gold, black, violet);
-    background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
     font-size: 1.7rem;
@@ -749,6 +759,7 @@ line-height: 1rem;
     justify-content: flex-end;
     background-color: rgba(0, 0, 0, 0.774);
     padding: 0.1rem 4rem;
+    width: 100%;
   }
 
   .social {
@@ -756,9 +767,11 @@ line-height: 1rem;
     justify-content: flex-end;
     align-items: center;
     gap: 1.2rem;
+    width: 80%;
+    margin: 0 auto;
   }
 
-  .social-icon a{
+  .social-icon a {
     color: #fff;
   }
 
@@ -766,17 +779,15 @@ line-height: 1rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
   }
 
   .networking {
     display: flex;
     align-items: center;
-    padding: 2rem 4rem;
+    padding: 2rem 2rem;
     gap: 1.2rem;
-  }
-
-  .networking li a {
-    color: blue;
   }
 
   .get {
@@ -784,8 +795,16 @@ line-height: 1rem;
     border: 2px solid orangered;
   }
 
+  .networking li a {
+    color: blue;
+  }
+
   .get a:hover {
     color: black;
+  }
+
+  .networking li a:hover {
+    color: orangered;
   }
 
   .nova {
@@ -794,7 +813,6 @@ line-height: 1rem;
     font-size: 2rem;
     line-height: 30px;
     background-image: linear-gradient(to top right, black, blue, purple, gold, black, violet);
-    background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
     margin-left: 2rem;
@@ -826,7 +844,7 @@ line-height: 1rem;
   }
 
   .about-footer {
-    border: 1px solid ;
+    border: 1px solid;
     background-color: rgba(0, 0, 0, 0.7);
     padding: 4rem;
     justify-content: flex-start;

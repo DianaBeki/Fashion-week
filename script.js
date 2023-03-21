@@ -65,14 +65,14 @@ const designers = [
 const designerList = document.createElement('div');
 designerList.classList.add('celebrities');
 
-for (let i = 0; i < designers.length; i++) {
+for (let i = 0; i < designers.length; i += 1) {
   if (i === 2) {
     const btn = document.createElement('button');
     btn.classList.add('btn');
     btn.innerHTML = 'More';
     btn.innerHTML += '<i class="fa fa-angle-down"></i>';
 
-    btn.addEventListener('click', function() {
+    btn.addEventListener('click', () => {
       btn.style.display = 'none';
       document.querySelectorAll('.hide').forEach((designer) => {
         designer.style.display = 'flex';
@@ -88,6 +88,13 @@ for (let i = 0; i < designers.length; i++) {
 
     const fashionImages = document.createElement('div');
     fashionImages.classList.add('fashion-images');
+
+    const chess = document.createElement('img');
+    chess.classList.add('chess-img');
+    chess.src = './images/chess.jpg';
+    chess.alt = 'chess photo';
+
+    fashionImages.appendChild(chess);
 
     const image = document.createElement('img');
     image.classList.add('images');
@@ -120,12 +127,8 @@ for (let i = 0; i < designers.length; i++) {
 
     designerList.appendChild(fashionCelebrity);
 
-
-
     document.getElementById('designers').appendChild(designerList);
-
   }
 }
 
 document.getElementById('designers').appendChild(designerList);
-
