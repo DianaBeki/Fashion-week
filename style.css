@@ -115,7 +115,7 @@ body {
   font-weight: 900;
   font-size: 3.5rem;
   line-height: 50px;
-  background-image: linear-gradient(to top right, black, blue, purple, gold, black, violet);
+  background-image: linear-gradient(to top right, #272a31, #ec5242, #d3d3d3);
   -webkit-background-clip: text;
   color: transparent;
   text-transform: uppercase;
@@ -128,7 +128,7 @@ body {
   font-size: 1rem;
   line-height: 1.5rem;
   margin-top: 2.5rem;
-  color: rgba(0, 0, 0, 0.8);
+  color: #515151;
 }
 
 .place {
