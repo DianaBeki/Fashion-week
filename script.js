@@ -91,7 +91,7 @@ for (let i = 0; i < designers.length; i += 1) {
 
     const chess = document.createElement('img');
     chess.classList.add('chess-img');
-    chess.src = '/images/chess.jpg';
+    chess.src = './images/chess.jpg';
     chess.alt = 'chess photo';
 
     fashionImages.appendChild(chess);
