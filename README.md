@@ -18,7 +18,7 @@
   - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show your support ](#️-show-your-support-)
   - [🙏 Acknowledgments ](#-acknowledgments-)
-  - [📝 License ](#-license-)
+  - [📝 LICENSE ](#-license-)
 
 <!-- PROJECT DESCRIPTION -->
 
@@ -134,6 +134,6 @@ If you like this project, consider giving it a star.
 
 <!-- LICENSE -->
 
-## 📝 License <a name="license"></a>
+## 📝 LICENSE <a name="LICENSE"></a>
 
-This project is [MIT](.LICENSE) licensed.
+This project is [MIT](LICENSE) licensed.
