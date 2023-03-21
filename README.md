@@ -24,7 +24,7 @@
 
 # 📖 Fashionova <a name="about-project"></a>
 
-**Fashion week** - A fashion week is a fashion industry event, lasting approximately one week, where fashion designers, brands or "houses" display their latest collections in runway fashion shows to buyers and the media.A fashion week is a fashion industry event, lasting approximately one week, where fashion designers, brands or "houses" display their latest collections in runway fashion shows to buyers and the media.
+**Fashion week** - A fashion week is a fashion industry event, lasting approximately one week, where fashion designers, brands or "houses" display their latest collections in runway fashion shows to buyers and the media.
 
 ## 🛠 Built With <a name="built-with"></a>
 
