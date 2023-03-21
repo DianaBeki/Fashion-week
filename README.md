@@ -55,7 +55,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- Check out the [live demo]()
+- Check out the [live demo](https://dianabeki.github.io/Fashion-week/)
 <br/>
 
 
@@ -80,15 +80,15 @@ git clone git@github.com:DianaBeki/Fashion-week.git
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- AUTHORS -->
+ <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
 
 👤 Diana Beki
 
-- GitHub: [@githubhandle](https://github.com/DianaBeki)
-- Twitter: [@twitterhandle](https://twitter.com/home)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/feed/)
+- GitHub:[Github](https://github.com/DianaBeki)
+- Twitter:[Twitter](https://twitter.com/home)
+- LinkedIn:[LinkedIn](https://www.linkedin.com/feed/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -136,4 +136,4 @@ If you like this project, consider giving it a star.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](LICENSE) licensed.
+This project is [MIT](.LICENSE) licensed.
