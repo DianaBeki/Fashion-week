@@ -281,12 +281,12 @@ body {
 }
 
 .chess-img {
+  position: absolute;
   width: 40%;
   height: 40%;
-  position: absolute;
+  opacity: 0.3;
   top: 0;
   left: 0;
-  opacity: 0.3;
   z-index: 2;
 }
 
@@ -294,7 +294,7 @@ body {
   position: absolute;
   bottom: 0;
   right: 0;
-  z-index: 4;
+  z-index: 3;
   object-fit: cover;
   object-position: top;
   width: 90%;
@@ -727,7 +727,7 @@ body {
 
   .program-list:hover {
     transform: scale(1.05);
-    border: 1px solid #fff;
+    border: 1px solid rgba(255, 255, 255, 0.898);
     cursor: pointer;
   }
 
