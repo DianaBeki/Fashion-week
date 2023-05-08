@@ -799,12 +799,12 @@ body {
     color: blue;
   }
 
-  .get a:hover {
-    color: black;
-  }
-
   .networking li a:hover {
     color: orangered;
+  }  
+
+  .get a:hover {
+    color: black;
   }
 
   .nova {
