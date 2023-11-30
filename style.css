@@ -95,10 +95,12 @@ body {
   position: fixed;
   background-color: azure;
   top: 1rem;
+  right: 3rem;
   border-radius: 0.7rem;
   padding: 0.5rem;
   box-shadow: 2px 2px 2px 1px black;
   z-index: 9;
+  font-size: 30px;
 }
 
 .fashion {
@@ -588,6 +590,26 @@ body {
   margin-left: 17%;
 }
 
+@media only screen and (max-width: 600px) {
+  .fashion {
+    font-weight: 400;
+    font-size: 1rem;
+    color: #ec5242;
+    line-height: 10px;
+    letter-spacing: 1px;
+  }
+
+  .heading-1 {
+    font-weight: 700;
+    font-size: 2rem;
+    margin-top: 0.1rem;
+  }
+
+  .paragraph1 {
+    margin-top: 1.5rem;
+  }
+}
+
 @media only screen and (min-width: 768px) {
   #icon {
     display: none;
@@ -739,12 +761,6 @@ body {
     margin-top: 0.3rem;
     text-align: center;
   }
-
-  /* .year-and-rights {
-    display: flex;
-    gap: 2rem;
-    color: grey;
-  } */
 
   .name-footer {
     background-image: linear-gradient(to top right, black, blue, purple, gold, black, violet);
